@@ -1,0 +1,1 @@
+type=PATH msg=audit(1744888484.578:66054): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=8410461 dev=103:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 obj=system_u:object_r:ld_so_t:s0 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0

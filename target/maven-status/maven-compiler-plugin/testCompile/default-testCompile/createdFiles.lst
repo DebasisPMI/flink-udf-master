@@ -1,0 +1,6 @@
+com\pmi\kafka\WindowsEventToJSONFunctionTest.class
+com\pmi\kafka\ParseAuditLogFunctionTest.class
+com\pmi\kafka\PublishToCCloud.class
+com\pmi\kafka\ParseCloudTrailFunctionTest.class
+com\pmi\kafka\ResourceUtils.class
+com\pmi\kafka\WindowsEventDropRenderingInfoFunctionTest.class

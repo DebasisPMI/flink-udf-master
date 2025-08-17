@@ -1,0 +1,334 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAXFOLVZORDI4Q2L6UF:rshrivastava@confluent.io",
+        "arn": "arn:aws:sts::492737776546:assumed-role/AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4/rshrivastava@confluent.io",
+        "accountId": "492737776546",
+        "accessKeyId": "ASIAXFOLVZORDZXCHCZH",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAXFOLVZORDI4Q2L6UF",
+            "arn": "arn:aws:iam::492737776546:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4",
+            "accountId": "492737776546",
+            "userName": "AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4"
+          },
+          "attributes": {
+            "creationDate": "2024-05-14T08:03:58Z",
+            "mfaAuthenticated": "false"
+          }
+        }
+      },
+      "eventTime": "2024-05-14T08:51:16Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "95.214.185.244",
+      "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.12.488 Linux/5.10.215-181.850.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.372-b08 java/1.8.0_372 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+      "requestParameters": {
+        "bucketName": "221u62bfnjtigsea77r6bph46327r83v",
+        "Host": "s3.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "tmSkiNuUwiuKbYQ4/WCQ7RZ1S93BBmTT9H6ExDLODJHNz2Sz4ax+3jirQcke6S6y2scHl3yhCtw=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "C35NG6VBN21AE0J7",
+      "eventID": "352ebc2e-6e4a-4ed8-a73a-8c3d8ae09bbe",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::221u62bfnjtigsea77r6bph46327r83v/"
+        },
+        {
+          "accountId": "492737776546",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::221u62bfnjtigsea77r6bph46327r83v"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "492737776546",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "s3.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAXFOLVZORPHF5LHL3D",
+        "arn": "arn:aws:iam::492737776546:user/aarif",
+        "accountId": "492737776546",
+        "accessKeyId": "AKIAXFOLVZORD3QULJ6L",
+        "userName": "aarif"
+      },
+      "eventTime": "2024-05-14T08:51:31Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.141.37",
+      "userAgent": "[aws-sdk-go/1.44.4 (go1.17.12 X:strictfipsruntime; linux; amd64) openshift.io cluster-image-registry-operator/v4.10.0-202308260023.p0.g80540e6.assembly.stream-dirty]",
+      "requestParameters": {
+        "bucketName": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb",
+        "Host": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "ucyclxSZrjmLEvKpygBy/xEVrESqfRyD4K4BCHp8wwqmZXPMQccHGw1xS8ceKrFauVSm/Ri55Lg=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "SKXHFZ1TSM6Z97M3",
+      "eventID": "87e92409-dc0b-4838-94d8-1300a8aee929",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb/"
+        },
+        {
+          "accountId": "492737776546",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "492737776546",
+      "vpcEndpointId": "vpce-016c56978b52f5875",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAXFOLVZORPHF5LHL3D",
+        "arn": "arn:aws:iam::492737776546:user/aarif",
+        "accountId": "492737776546",
+        "accessKeyId": "AKIAXFOLVZORD3QULJ6L",
+        "userName": "aarif"
+      },
+      "eventTime": "2024-05-14T08:52:23Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.141.37",
+      "userAgent": "[aws-sdk-go/1.44.4 (go1.17.12 X:strictfipsruntime; linux; amd64) openshift.io cluster-image-registry-operator/v4.10.0-202308260023.p0.g80540e6.assembly.stream-dirty]",
+      "requestParameters": {
+        "bucketName": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb",
+        "Host": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "KrcCR5MuJRSoQM6DbmKzYPu4Ea0VeUDh4zb02EZcpFpsta7fejy6EDbnE27am2iO0HR+vJg/bB4=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "DBAF3PDQKJHZMFXN",
+      "eventID": "c37e8a7f-e2dd-438e-967e-bedac58d2179",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb/"
+        },
+        {
+          "accountId": "492737776546",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "492737776546",
+      "vpcEndpointId": "vpce-016c56978b52f5875",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAXFOLVZORFYPPQICDO:AutoScaling-RetrieveCurrentCapacity",
+        "arn": "arn:aws:sts::492737776546:assumed-role/AWSServiceRoleForApplicationAutoScaling_DynamoDBTable/AutoScaling-RetrieveCurrentCapacity",
+        "accountId": "492737776546",
+        "accessKeyId": "ASIAXFOLVZORPI3AM4E4",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAXFOLVZORFYPPQICDO",
+            "arn": "arn:aws:iam::492737776546:role/aws-service-role/dynamodb.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_DynamoDBTable",
+            "accountId": "492737776546",
+            "userName": "AWSServiceRoleForApplicationAutoScaling_DynamoDBTable"
+          },
+          "attributes": {
+            "creationDate": "2024-05-14T08:53:04Z",
+            "mfaAuthenticated": "false"
+          }
+        },
+        "invokedBy": "dynamodb.application-autoscaling.amazonaws.com"
+      },
+      "eventTime": "2024-05-14T08:53:05Z",
+      "eventSource": "dynamodb.amazonaws.com",
+      "eventName": "DescribeTable",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "dynamodb.application-autoscaling.amazonaws.com",
+      "userAgent": "dynamodb.application-autoscaling.amazonaws.com",
+      "requestParameters": {
+        "tableName": "Book"
+      },
+      "responseElements": null,
+      "requestID": "QTVMUCFCEV98D3D38KAL8I9DR7VV4KQNSO5AEMVJF66Q9ASUAAJG",
+      "eventID": "2dc983fd-0fe2-49cb-8a85-07adf2679689",
+      "readOnly": true,
+      "resources": [
+        {
+          "accountId": "492737776546",
+          "type": "AWS::DynamoDB::Table",
+          "ARN": "arn:aws:dynamodb:us-east-1:492737776546:table/Book"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "apiVersion": "2012-08-10",
+      "managementEvent": true,
+      "recipientAccountId": "492737776546",
+      "eventCategory": "Management"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAXFOLVZORPHF5LHL3D",
+        "arn": "arn:aws:iam::492737776546:user/aarif",
+        "accountId": "492737776546",
+        "accessKeyId": "AKIAXFOLVZORD3QULJ6L",
+        "userName": "aarif"
+      },
+      "eventTime": "2024-05-14T08:54:59Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.141.37",
+      "userAgent": "[aws-sdk-go/1.44.4 (go1.17.12 X:strictfipsruntime; linux; amd64) openshift.io cluster-image-registry-operator/v4.10.0-202308260023.p0.g80540e6.assembly.stream-dirty]",
+      "requestParameters": {
+        "bucketName": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb",
+        "Host": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "lxZ0jA/wwQvYKzso1vEEYxdXwOM57BDADpolJhGvpWoV8t9AtZfd9hF/DCbH9mK74lf0HaNO19E=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "T1NGAWB0K8TEQ9ER",
+      "eventID": "8e604310-bf53-4281-811c-3650e58418a4",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb/"
+        },
+        {
+          "accountId": "492737776546",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "492737776546",
+      "vpcEndpointId": "vpce-016c56978b52f5875",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      }
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAXFOLVZORPHF5LHL3D",
+        "arn": "arn:aws:iam::492737776546:user/aarif",
+        "accountId": "492737776546",
+        "accessKeyId": "AKIAXFOLVZORD3QULJ6L",
+        "userName": "aarif"
+      },
+      "eventTime": "2024-05-14T08:55:51Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "HeadBucket",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "10.0.141.37",
+      "userAgent": "[aws-sdk-go/1.44.4 (go1.17.12 X:strictfipsruntime; linux; amd64) openshift.io cluster-image-registry-operator/v4.10.0-202308260023.p0.g80540e6.assembly.stream-dirty]",
+      "requestParameters": {
+        "bucketName": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb",
+        "Host": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "TLS_AES_128_GCM_SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "zoFnI3A+0pmeo1OKg8tGn1JJl24E3ZMBxCkrrPoJIxFDoJj0JYsdklKPVcIcN2vOk95RPhTnBC0=",
+        "bytesTransferredOut": 0
+      },
+      "requestID": "G3EBEJFV5WRAAJRS",
+      "eventID": "da59358a-1cc0-4834-a4c5-7137aa501f2a",
+      "readOnly": true,
+      "resources": [
+        {
+          "type": "AWS::S3::Object",
+          "ARNPrefix": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb/"
+        },
+        {
+          "accountId": "492737776546",
+          "type": "AWS::S3::Bucket",
+          "ARN": "arn:aws:s3:::openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "492737776546",
+      "vpcEndpointId": "vpce-016c56978b52f5875",
+      "eventCategory": "Data",
+      "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "openshift-fd8wh-image-registry-us-east-1-bcbtoogmmmrctxxtuqylb.s3.dualstack.us-east-1.amazonaws.com"
+      }
+    }
+  ]
+}

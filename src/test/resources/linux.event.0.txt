@@ -1,0 +1,1 @@
+type=SYSCALL msg=audit(1744888492.778:66060): arch=c000003e syscall=59 success=yes exit=0 a0=28ab530 a1=27ccc80 a2=7ffc60710728 a3=0 items=2 ppid=7099 pid=7102 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="rpm" exe="/usr/bin/rpm" subj=system_u:system_r:unconfined_service_t:s0 key="software_mgmt"

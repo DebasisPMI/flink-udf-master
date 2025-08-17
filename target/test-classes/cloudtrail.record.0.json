@@ -1,0 +1,65 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAXFOLVZORDI4Q2L6UF:rshrivastava@confluent.io",
+    "arn": "arn:aws:sts::492737776546:assumed-role/AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4/rshrivastava@confluent.io",
+    "accountId": "492737776546",
+    "accessKeyId": "ASIAXFOLVZORDZXCHCZH",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAXFOLVZORDI4Q2L6UF",
+        "arn": "arn:aws:iam::492737776546:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4",
+        "accountId": "492737776546",
+        "userName": "AWSReservedSSO_nonprod-administrator_6bbd747b1460f5f4"
+      },
+      "attributes": {
+        "creationDate": "2024-05-14T08:03:58Z",
+        "mfaAuthenticated": "false"
+      }
+    }
+  },
+  "eventTime": "2024-05-14T08:51:16Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "HeadBucket",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "95.214.185.244",
+  "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.12.488 Linux/5.10.215-181.850.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.372-b08 java/1.8.0_372 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+  "requestParameters": {
+    "bucketName": "221u62bfnjtigsea77r6bph46327r83v",
+    "Host": "s3.amazonaws.com"
+  },
+  "responseElements": null,
+  "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "AuthenticationMethod": "AuthHeader",
+    "x-amz-id-2": "tmSkiNuUwiuKbYQ4/WCQ7RZ1S93BBmTT9H6ExDLODJHNz2Sz4ax+3jirQcke6S6y2scHl3yhCtw=",
+    "bytesTransferredOut": 0
+  },
+  "requestID": "C35NG6VBN21AE0J7",
+  "eventID": "352ebc2e-6e4a-4ed8-a73a-8c3d8ae09bbe",
+  "readOnly": true,
+  "resources": [
+    {
+      "type": "AWS::S3::Object",
+      "ARNPrefix": "arn:aws:s3:::221u62bfnjtigsea77r6bph46327r83v/"
+    },
+    {
+      "accountId": "492737776546",
+      "type": "AWS::S3::Bucket",
+      "ARN": "arn:aws:s3:::221u62bfnjtigsea77r6bph46327r83v"
+    }
+  ],
+  "eventType": "AwsApiCall",
+  "managementEvent": false,
+  "recipientAccountId": "492737776546",
+  "eventCategory": "Data",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "s3.amazonaws.com"
+  }
+}
